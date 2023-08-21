@@ -11,7 +11,7 @@
 #### Quartz .Net is an enterprice timer library for .Net Standard Framework. I used it in this project for scheduling emails with cron expression.
 #### I Used EF Core and Sqlite for storing schedules in server. "ScheduleLoader" Hosted Service gets uncompleted schedules from database and reschedules them when server booted up.
 
-## Frontend
+## Front-end
 #### I used tailwindcss and daisyui for user interface components.
 #### In this project i used Axios for communications with Web API. "http-client" handles authentication, "AccountManager" service handles login and signup and change password. "ScheduleManager" service created for manage schedules and CRUD actions for schedules.
 
@@ -61,7 +61,7 @@ app.UseCors(p =>
 
 ```
 
-## Fron-tend
+## Front-end
 first you should set backend address at /src/Services/http-client , find this line:
 ```
 this.client = axios.create({baseURL: "your_backend_address"});
