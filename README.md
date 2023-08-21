@@ -5,10 +5,7 @@
 ### a Web Application written in Asp .Net Core Web API for back-end and ReactJs for front-end
 ### It can schedule your emails for any time!
 
-# How Does Work
-
-
-
+# How does work
 ## Back-end
 
 #### Quartz .Net is an enterprice timer library for .Net Standard Framework. I used it in this project for scheduling emails with cron expression.
